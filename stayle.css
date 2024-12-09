@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+}
+.body{
+    background-color: #1f1f1f;
+}
+
+.navbar{
+    background-color: #282828;
+}
+button.navbar-toggler {
+    width: 31px; 
+    height: 26px;
+     background-color: white;
+
+}
+span.navbar-toggler-icon{
+ margin-top: -9px; 
+ margin-left: -7px;
+  width: 20px;
+}
+.d-flex{
+color: rgb(253, 84, 84); 
+font-family: 'Quicksand'; 
+}
+img.mt-2{
+    width: 27px;
+     height: 28px
+}
+
+.collapse {
+    font-family: 'mulish';
+}
+.search{
+    background: black; 
+    border: 1px solid; 
+    border-radius: 7px;
+}
+.search-icon img{
+    width: 36px;
+}
+.menu-icon img{
+    margin-top: -8px;
+    width: 26px;
+}
+::placeholder{
+    font-family: 'Quicksand';
+    color: white;
+    margin-right: 0;
+}
+.bi{
+    margin-left: -65px;
+    
+}
+.headline{
+    font-family: 'oswald';
+}
+.text{
+    margin-top: 132px;
+}
+.line{
+    font-family: 'Quicksand';
+}
+.l-1{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+  .l-2{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+  .l-3{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+  .l-4{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+ .bi-heart-fill{
+    margin-left:0;
+    font-size: 13px;
+ }
+ .l-6{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+  .l-7{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }.l-4{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+  .list{
+    margin-left: -28px;
+    font-weight: bold;
+    color: orange;
+  }
+  .list-2{
+    list-style: none;
+    font-weight: bold;
+    color: orange;
+    margin-left: 20rem;
+  }
+  .l-8{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+
+  }
+  .l-9{
+
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+  }
+ 
+.bi-chevron-down{
+    margin: 0;
+}
+.list-3{
+    list-style: none;
+    font-weight: bold;
+    margin-left: -45px;
+   
+  
+}
+.l-10{
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: white;
+    padding-right: 98px;
+
+}
+.l-11{
+    border-right: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color:white;
+}
+.list-4{
+    list-style: none;
+    font-weight: bold;
+    color: orange;
+    margin-left: -27px;
+   
+}
+.l-12{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+}
+.l-13{
+    list-style: none;
+    border: 2px solid;
+    border-color: gray;
+}
+.card{
+    width: 12rem;
+    border-radius: 6px;
+    background-color: #282828;
+    
+
+   
+}
+.card img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-body{
+    background-color:#1f1f1f;
+    padding-top: 0;
+    padding-left: 0;
+
+}
+.font{
+    font-family: 'mulish' ;
+}
+footer{
+    margin-top: 324px;
+    background-color: #282828;
+}
+.btn{
+    font-family:'mulish'  ;
+}
+.icons-1{
+  
+}
+.icons-1 img{
+    width: 48px;
+}
