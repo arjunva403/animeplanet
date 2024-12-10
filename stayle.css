@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1f1f1f;
+
 }
 .body{
     background-color: #1f1f1f;
 }
 
-.navbar{
+nav{
     background-color: #282828;
+    
 }
 button.navbar-toggler {
     width: 31px; 
@@ -29,9 +31,12 @@ img.mt-2{
     width: 27px;
      height: 28px
 }
-
+.logo{
+    margin-left: 12rem;
+}
 .collapse {
     font-family: 'mulish';
+    margin-left: 83px;
 }
 .search{
     background: black; 
@@ -136,9 +141,7 @@ img.mt-2{
   
 }
 .l-10{
-    border-left: 2px solid;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+    border: 2px solid;
     border-color: white;
     padding-right: 98px;
 
@@ -153,7 +156,9 @@ img.mt-2{
     list-style: none;
     font-weight: bold;
     color: orange;
-    margin-left: -27px;
+    margin-left: -30px;
+    margin-right: 0;
+    padding-right: 0;
    
 }
 .l-12{
@@ -190,6 +195,7 @@ img.mt-2{
 footer{
     margin-top: 324px;
     background-color: #282828;
+    padding-bottom: 80px;
 }
 .btn{
     font-family:'mulish'  ;
@@ -199,4 +205,72 @@ footer{
 }
 .icons-1 img{
     width: 48px;
+}
+
+  @media (max-width:1300px) {
+    .collapse {
+    
+        margin-left:0;
+    }
+    .logo{
+        margin-left: 0;
+    }
+  }
+
+@media  (max-width:989px){
+    .card{
+        width: 155px;
+    }
+}
+@media  (max-width:769px){
+   .card{
+    width: 164px;
+   }
+}
+
+@media  (max-width:615px){
+   .card{
+    width: 130px;
+   }
+   .card-body p{
+    font-size: 11px;
+   }
+   .card-body h6{
+    font-size: 13px;
+   }
+
+}
+@media  (max-width:550px){
+.card{
+    margin-left: 60px;
+    width: 116px;
+
+}
+}
+@media (max-width:548px){
+    .card{
+        margin-left: 25px;
+        width: 108px;
+    }
+}
+@media (max-width:447px){
+    .card{
+        width: 111px;
+    }
+    .logo{
+        margin-left: 3px;
+        margin-right:0;
+        position: relative;
+    }
+}
+@media(max-width:320px) {
+    .l-10{
+        margin-left: -12px;
+    }
+    .card{
+        margin-left:12px;
+    }
+    .bar-number{
+        margin-left: 54px;
+    }
 }
