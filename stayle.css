@@ -221,6 +221,7 @@ footer{
     .card{
         width: 155px;
     }
+    
 }
 @media  (max-width:769px){
    .card{
@@ -255,7 +256,7 @@ footer{
 }
 @media (max-width:447px){
     .card{
-        width: 111px;
+        width: 110px;
     }
     .logo{
         margin-left: 3px;
@@ -269,6 +270,7 @@ footer{
     }
     .card{
         margin-left:12px;
+        
     }
     .bar-number{
         margin-left: 54px;
